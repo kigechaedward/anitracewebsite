@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delete Account | Anitrace</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: { emerald: '#50C878', crimson: '#FF0033', canvas: '#0F0F0F', surface: '#1A1A1A' },
+                    fontFamily: { sans: ['Inter', 'sans-serif'], mono: ['JetBrains Mono', 'monospace'] },
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-canvas text-gray-300 font-sans p-6 md:p-20">
+    <div class="max-w-3xl mx-auto">
+        <a href="index.html" class="font-mono text-emerald text-sm tracking-widest hover:underline mb-12 inline-block uppercase">← Return to Base</a>
+
+        <div class="flex items-center gap-4 mb-8">
+            <h1 class="text-4xl font-bold text-white tracking-tighter">DELETE <span class="text-crimson">ACCOUNT</span></h1>
+            <img src="logo.png" alt="Logo" class="w-10 h-10 ml-auto">
+        </div>
+
+        <div class="space-y-8 leading-relaxed">
+            <section class="bg-red-500/5 border border-red-500/20 p-6 rounded-xl">
+                <h2 class="text-crimson font-mono uppercase tracking-widest text-sm mb-4">Warning: Irreversible Action</h2>
+                <p>Deleting your Anitrace account will result in the permanent removal of your field credentials, reputation badges, and personal intelligence data.</p>
+            </section>
+
+            <section>
+                <h2 class="text-white font-mono uppercase tracking-widest text-sm mb-4">How to Request Deletion</h2>
+                <p>To initiate a data deletion request, please follow these tactical steps:</p>
+                <ol class="list-decimal ml-5 mt-4 space-y-4">
+                    <li>
+                        <strong>Email Us:</strong> Send an email from your registered account email to <a href="mailto:support@anitrace.intel" class="text-emerald font-bold">support@anitrace.intel</a>.
+                    </li>
+                    <li>
+                        <strong>Subject Line:</strong> Use the subject <code class="bg-surface px-2 py-1 rounded text-white text-xs">ACCOUNT DELETION REQUEST - [Your Username]</code>.
+                    </li>
+                    <li>
+                        <strong>Verification:</strong> Our field ops team will send a verification code to your registered phone number to confirm your identity.
+                    </li>
+                </ol>
+            </section>
+
+            <section>
+                <h2 class="text-white font-mono uppercase tracking-widest text-sm mb-4">Data Deletion Policy</h2>
+                <div class="grid md:grid-cols-2 gap-6 mt-4 font-mono text-xs">
+                    <div class="bg-surface/50 p-4 rounded-lg border border-white/5">
+                        <h3 class="text-emerald mb-2">WHATS DELETED</h3>
+                        <ul class="space-y-1 opacity-70">
+                            <li>● Full Name & Phone Number</li>
+                            <li>● Precise GPS History</li>
+                            <li>● Individual Profile Assets</li>
+                            <li>● Private Team Messages</li>
+                        </ul>
+                    </div>
+                    <div class="bg-surface/50 p-4 rounded-lg border border-white/5">
+                        <h3 class="text-gray-400 mb-2">WHATS RETAINED</h3>
+                        <ul class="space-y-1 opacity-70">
+                            <li>● Anonymized Sighting Data</li>
+                            <li>● Aggregated AI Intel</li>
+                            <li>● Public Leaderboard Ranks*</li>
+                        </ul>
+                        <p class="mt-2 text-[8px] italic">*Ranks are scrubbed of personal IDs but kept for historic model integrity.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <h2 class="text-white font-mono uppercase tracking-widest text-sm mb-4">Retention Period</h2>
+                <p>Once verified, your account will be deactivated immediately. All personal data will be purged from our active tactical servers within <strong class="text-white">30 days</strong>.</p>
+            </section>
+
+            <section class="border-t border-white/10 pt-8 mt-12 text-[10px] font-mono uppercase tracking-widest text-gray-600">
+                Data Protocol: GDPR/CCPA Compliant // Ref: ANITRACE-PURGE-01
+            </section>
+        </div>
+    </div>
+</body>
+</html>
