@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy | Anitrace</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: { emerald: '#50C878', electric: '#007FFF', canvas: '#0F0F0F' },
+                    fontFamily: { sans: ['Inter', 'sans-serif'], mono: ['JetBrains Mono', 'monospace'] },
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-canvas text-gray-300 font-sans p-6 md:p-20">
+    <div class="max-w-3xl mx-auto">
+        <div class="flex items-center gap-4 mb-12">
+            <a href="index.html" class="font-mono text-emerald text-sm tracking-widest hover:underline uppercase">← Return to Base</a>
+            <img src="logo.png" alt="Logo" class="w-8 h-8 ml-auto opacity-50">
+        </div>
+        <h1 class="text-4xl font-bold text-white mb-8 tracking-tighter">PRIVACY <span class="text-emerald">POLICY</span></h1>
+
+        <div class="space-y-8 leading-relaxed">
+            <section>
+                <h2 class="text-white font-mono uppercase tracking-widest text-sm mb-4">Intel Collection</h2>
+                <p>Anitrace is designed for tactical wildlife intelligence. To provide this service, we collect specific data points critical for field operations:</p>
+                <ul class="list-disc ml-5 mt-4 space-y-2 font-mono text-sm">
+                    <li><strong class="text-emerald uppercase tracking-tighter">Precise GPS Data:</strong> We track your location in the background to provide real-time mapping, approach telemetry, and tactical SOS alerts.</li>
+                    <li><strong class="text-emerald uppercase tracking-tighter">Camera & Media:</strong> We access your camera and storage for the 5-step reporting wizard to document sightings and provide visual intelligence to other guides.</li>
+                    <li><strong class="text-emerald uppercase tracking-tighter">Phone Number:</strong> Collected during registration to verify guide identity and enable secure communication between team members.</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2 class="text-white font-mono uppercase tracking-widest text-sm mb-4">Data Usage</h2>
+                <p>Sighting data and migration patterns are processed by our AI models to improve wildlife predictions for the entire guide community. Your personal identity is only shared with verified guides within your organization or park fleet.</p>
+                <p class="mt-4">We do <strong class="text-white">NOT</strong> sell your location history or personal intel to third-party advertisers.</p>
+            </section>
+
+            <section class="border-t border-white/10 pt-8 mt-12 text-[10px] font-mono uppercase tracking-widest text-gray-600">
+                Last Updated: 2026.05.20 // Revision 1.0.4
+            </section>
+        </div>
+    </div>
+</body>
+</html>
